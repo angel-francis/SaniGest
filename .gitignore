@@ -1,0 +1,46 @@
+# Maven
+target/
+**/target/
+.flattened-pom.xml
+
+# IntelliJ IDEA
+.idea/
+*.iml
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# Visual Studio Code
+.vscode/
+
+# Java
+*.class
+hs_err_pid*
+
+# Logs and local runtime files
+*.log
+logs/
+*.pid
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfplan
+crash.log
+crash.*.log
+.terraformrc
+terraform.rc
+
+# Operating systems
+.DS_Store
+Thumbs.db
