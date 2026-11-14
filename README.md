@@ -33,7 +33,13 @@ docker --version
 ```text
 .
 ├── services/               Microservicios desplegables e independientes
-│   └── company-service/    Módulo inicial de Company
+│   ├── api-gateway/        Entrada pública (reservado para S2-316)
+│   ├── identity-service/   Identidad y sesiones (reservado para S2-304)
+│   ├── company-service/    Módulo inicial compilable de Company
+│   ├── catalog-service/    Maestros comerciales (reservado para S2-318)
+│   ├── sales-service/      Ciclo de ventas (reservado para S2-331)
+│   ├── expense-service/    Ciclo de gastos (reservado para S2-342)
+│   └── finance-service/    Caja y reportes (reservado para S2-349)
 ├── libraries/              Contratos técnicos compartidos ya demostrados
 ├── infrastructure/         Terraform, Docker y despliegue
 ├── docs/                   ADRs y documentación técnica
